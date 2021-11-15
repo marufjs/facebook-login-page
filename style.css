@@ -54,6 +54,9 @@ form input[type='email'] {
 form input[type='password'] {
   width: 80%;
 }
+::placeholder {
+  font-size: 16px;
+}
 form .email,
 form .password {
   outline: 1px solid #d8dde4;
